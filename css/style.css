@@ -1,0 +1,369 @@
+*{
+    font-family: 'Corben', cursive;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 135px;
+}
+.baslik{
+    width: 70%;
+    height: 100%;
+    margin:auto;
+}
+
+
+.logo, .menu, .sosyal{
+    width: calc(100%/3);
+    height: 100%;
+    float: left;
+}
+.logo a img {
+    height: 100%;
+}
+
+.menu h1{
+    font-size: 20px;
+    text-align: center;
+    color: #64AA85;
+    margin-top: 20px;
+}
+.menu ul {
+    padding: 0%;
+    width: 236px;
+    margin: auto;
+    
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.menu ul li a, 
+.sosyal ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color:#64AA85;
+    text-decoration: underline;
+}
+.sosyal ul li {
+    list-style: none;
+    float: right;
+    padding: 10px;
+    margin-top: 25px;
+    
+}
+
+.sosyal ul li a:hover{
+    color: #64AA85;
+}
+
+/*ana alanla çalışıyorum*/
+
+.ana-alan{
+    width: 100%;
+    height: calc(100vh - 135px);
+    background-color: aqua;
+    background-image: url(../img/invincible-houseplants-blog-indoor-urban-jungle.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+.ana-alan * {
+    text-align: center;
+}
+.ana-alan h3 {
+    color: rgb(18, 119, 84);
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+}
+.ana-alan h1{
+    color: #64AA85;
+    text-transform: uppercase;
+}
+.ana-alan h2{
+    text-transform: uppercase;
+    color: rgb(126, 194, 174);
+    font-size: 20px;
+}
+.orta-alan{
+    width: 70%;
+    margin: auto;
+}
+.blog-baslik, .blog-list{
+    margin: 25px 0;
+}
+
+.blog-baslik h3{
+    display: inline;
+    color:#64AA85;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+.blog-baslik a{
+    float: right;
+    font-style: italic;
+    color: black;
+    font-size: 13px;
+}
+
+.blog-list {
+    height: 120px;
+}
+
+.blog-list div{
+float: left;
+width: 25%;
+height: 120px;
+padding-right: 10px;
+}
+
+.blog-list div:last-child {
+    padding-right: 0;
+}
+.blog-list div a{
+color: black;
+text-decoration: none;
+}
+
+.blog-list div a img{
+    width: 100%;
+    height: 100%;
+}
+
+.alan3 {
+    width: 70%;
+    margin: auto;
+}
+
+.alan3-ust * {
+    text-align: center;
+}
+
+.alan3-ust h1{
+    color:#0a4626;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform:uppercase;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.alan3-ust h2{
+    color:rgb(81, 122, 109);
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    font-size: 18px;
+}
+
+.alan3-alt {
+    width: 70%;
+    margin: auto;
+}
+
+.alan3-alt div{
+    width: 50%;
+    float: left;
+}
+
+.alan3-alt div img {
+    width: 80%;
+    padding-left: 25%;
+    padding-top: 20px;
+}
+
+.alan3-alt div p {
+    font-size: 15px;
+    line-height: 32px;
+}
+
+hr {
+    clear: both;
+}
+
+.alan4 * {
+    text-align: center;
+}
+
+.alan4 {
+    width: 70%;
+    margin: auto;
+}
+
+.alan4 h2{
+    color:rgb(81, 122, 109);
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    font-size: 18px;
+}
+
+.alan4 div{
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.alan5 * {
+    text-align: center;
+}
+
+.alan5 {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.alan6 {
+    width: 70%;
+    margin: auto;
+}
+
+.alan6 h2{
+    color:rgb(81, 122, 109);
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+.alan6-ul {
+    border-left: 0.1px solid rgb(180, 173, 173);
+    padding-left: 15px;
+    text-align: left;
+    list-style-type:none;
+    margin: 25px;
+    padding: 35px;
+    font-size: 15px;
+    line-height: 38px;
+}
+
+.alan6-alt {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.alan7 * {
+    text-align: center;
+}
+
+.alan7 {
+    width: 70%;
+    margin: auto;
+}
+
+.alan7 h2 {
+    color:rgb(81, 122, 109);
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+.alan7 p {
+    font-size: 15px;
+    text-align: left;
+    word-spacing: 2px;
+}
+
+.alan8 * {
+    text-align: center;
+}
+
+.alan8-üst h2{
+    color:rgb(81, 122, 109);
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    font-size: 18px;
+}
+
+.alan8-üst a {
+    color: black;
+}
+
+a:hover, a:active {
+    color:grey;
+  }
+
+  .alan8-list {
+    height: 100%;
+}
+
+.alan8-list div{
+    width: 100%;
+    height: 100%;
+    }
+
+    footer{
+        width: 100%;
+        height: 540px;
+    }
+
+    .sonalan * {
+        text-align: center;
+        background-color: rgb(163, 214, 197);
+    }
+
+
+    .sonalan-üst h2{
+        color:rgb(13, 68, 51);
+        letter-spacing: 2px;
+        text-transform:uppercase;
+        font-size: 18px;
+        padding-top: 7%;
+        letter-spacing: 2px;
+    }
+    
+    .sonalan-üst h5, p{
+        font-size: 14px;
+    }
+    .sonalan-üst h5 {
+        letter-spacing: 2px;
+    }
+
+    .sonalan-üst i {
+        font-size: 20px;
+        letter-spacing: 10px;
+    }
+
+    .sonalan-alt ul {
+        list-style: none;
+        padding: 75px 7px;
+        width: 300px;
+        margin: auto;
+    }
+
+    .sonalan-alt ul li {
+        list-style: none;
+        float: left;
+        font-size: 13px;
+        padding-left: 15px;
+        
+    }
+
+    .sonalan-alt ul li a {
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+    .sonalan-alt ul li a:hover {
+        color:grey;
+      }
